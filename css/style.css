@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+}
+.inthemiddle{
+    max-width: 1165px;
+    margin: 0 auto;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    overflow-x: hidden;
+}
+.inallspace{
+        
+    background-color: #F2F2F2;
+}
+.lock{
+    overflow: hidden;
+}
+.nav{
+    background-color: grey;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    position: fixed;
+    display: block;
+    align-items: center;
+}
+.nav_inner{
+    display: flex;
+    max-width: 1440px;
+    min-height: 70px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 20px;
+}
+/*.burger {
+    position: relative;
+    z-index: 30;
+    display: block;
+    cursor: pointer;
+    
+}
+.burger_lines,
+.burger_lines::after,
+.burger_lines::before{
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #000000;
+    left: 0%;
+    
+}
+.burger_lines{
+    top: 50%;
+    transform: scale(1) translate(0px,-50%);
+}
+.burger_lines::after{
+    content: "";
+    top: 10px;
+}
+.burger_lines::before{
+    content: "";
+    bottom: 10px;
+}
+*/
+.menuul{
+    display: flex;
+    right: -100%;
+    transition: right 0.9s ease 0s;
+    padding-inline-start:0px;
+    position: fixed;
+
+}
+.menuul_active{
+    display: flex;
+    justify-content: center;
+    transition: right 0.9s ease 0s;
+    padding-inline-start:0px;
+    right: 0%;
+  
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+.menulink a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.menulink{
+    list-style-type:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    text-decoration: none;
+    
+}
+
+.headertext{
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 120px;
+    width: 650px;
+}
+.name{
+    color: #1C1C1C;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 180px;
+    font-family: Arial, Helvetica, Regular;
+    letter-spacing: -10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.nameletters{
+    color: #9EA080;
+}
+.headimg{
+    display: flex;
+    justify-content: center;
+}
+.hello {
+    text-transform: uppercase;
+    font-size: 111px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 230px 0 60px;
+}
+.whoiam {
+    color: #1C1C1C;
+    font-size: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+   padding-bottom: 40px;
+}
+.seccol {
+    color: #9EA080;
+    font-family: Arial;
+    font-style: Regular;
+    font-size: 29px;
+    text-transform: uppercase;
+}
+.tobecontinued {
+    align-items: center;
+    display: flex-end;
+}
+.tobecontinued__span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.continued {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    position: absolute;
+    color:#9EA080;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    transform: translate(-20%,-0%);
+ 
+}
+
+.circle{
+
+}
+.itsme {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.pos{
+    position: absolute;
+}
+.txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    text-transform: uppercase;
+}
+.lefttext {
+    left: 300px;
+    position: relative;
+}
+.righttext {
+    right: 580px;
+    position: relative;
+}
+.the{
+    position: absolute;
+    transform: translate(160%,0%);
+}
+.by{
+    position: absolute;
+    transform: translate(-460%,0%);
+}
+.way{
+    position: absolute;
+    transform: translate(-300%,53%);
+}
+.its{
+    position: absolute;
+    transform: translate(-350%,115%);
+}
+
+.me{
+    position: absolute;
+    transform: translate(210%,115%);
+}
+.underarttxt{
+    padding: 220px 0 70px; 
+    text-align: center;
+
+}
+
+.backgroundforart1 {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+.nameofart {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    width: 400px;
+    margin-left: 0px;
+}
+.arts{
+    display: flex;
+    padding-top: 100px;
+}
+.art2 {
+    padding-right: 110px;
+    justify-content: flex-start;
+}
+.art3 {
+    padding-top: 650px;
+    justify-content: flex-end;
+}
+.art4{
+    padding-top: 110px;
+}
+.nazv{
+    padding-bottom: 60px;
+}
+.othersworks {
+    padding-top: 100px;
+}
+.seemoreimges{
+    display: flex;
+    padding-bottom: 95px;
+    
+}
+.leftworks{
+    padding-right: 85px;
+}
+.rightworks{
+    padding-top: 450px;
+}
+.comics {
+     padding-bottom: 15px;
+}
+
+.wannaseemore {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.seemore{
+   display: inline-block;
+   position: absolute;
+   transform: translate(-50%,60px);
+   left: 50%;
+   color:#9EA080;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.prefooter {
+    padding-top: 215px;
+    
+}
+.yourturn{
+    text-transform: uppercase;
+    font-size: 111px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+.textfooter {
+    text-align: center;
+    color: #000000;
+    font-size: 54px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding-bottom: 70px;
+}
+
+.footerimg{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 80px 50px 70px 35px;
+}
+
+
+.socialmedia {
+    
+    justify-content: center;
+}
+.textff{
+    color: white;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.media{
+    margin-right: 35px;
+    margin-left: 35px;
+}  
+.heart{
+    font-size: 30px;
+    color: #9EA080;
+}
+
+
